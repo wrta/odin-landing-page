@@ -8,6 +8,7 @@
 }
 
 .menu{
+    font-size: small;
     list-style-type: none;
     display: flex;
     text-decoration: none;
@@ -47,12 +48,12 @@
 
 .container1 {
     background-color: #1f2937;
-    
+    padding-right: 20px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     width: 350px;
     height:auto;
+    align-items: baseline;
 }
 
 .container1 div{
@@ -61,12 +62,13 @@
 }
 
 .container2 {
-    background-color: #f0f2f5;
+    background-color: rgba(167, 165, 165, 0.534);
     color: white;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     width: 350px;
     height: 175px;
 }
@@ -88,21 +90,17 @@
     width: auto;
     text-align: justify;
     text-align-last: center;
-    gap: 10px;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-
 }
 
 .sri {
-    border: 2px solid #3882f6;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 350px;
     height: auto;
-    ;
 }
 
 .imgborders {
@@ -113,6 +111,9 @@
     border-radius: 15%;
 }
 
+.imgborders.imgtxt {
+    height: auto;
+}
 
 .master4 {
     background-color: #e5e7eb;
@@ -127,9 +128,9 @@
     font-style: italic;
     display: flex;
     flex-direction: column;
-    justify-content:baseline;
+    justify-content: baseline;
     align-items: flex-end;
-    text-align: center;
+    text-align: start;
     align-content: center;
     width: 400px ;
 }
@@ -151,22 +152,28 @@
 .submaster5 {
     background-color: #3882f6;
     display: flex;
-    justify-content: center;
+    border-radius: 5px;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 50px 20px 50px;
     margin: 100px;
-    width: auto;
-    height: 100px;
+    width: 700px;
+    height: 60px;
+}
+
+.submaster6 {
+   
 }
 
 .buttons {
     color: white;
     background-color: #3882f6;
     border-radius: 5px;
-    display: inline-block;
+    display: center;
     text-decoration: none;
     font-weight: bolder;
-    padding: 5px 10px 3px 10px;
+    font-size: small;
+    padding: 5px 20px 3px 20px;
     height: auto;
     width: auto;
 }
@@ -174,6 +181,7 @@
 .ftr {
     background-color: #1f2937;
     color: white;
+    font-size: smaller;
     width: auto;
     height: auto;
     padding: 20px;
